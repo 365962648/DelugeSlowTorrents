@@ -11,3 +11,10 @@ You'll need to change both of those. Also, you will need to change the connect s
 
 from
 https://www.reddit.com/r/seedboxes/comments/b37h8k/scripthowto_automatically_delete_slow_torrents/
+
+
+After making the required changes to the deluge-connect strings, you can run it like this:
+
+1. Create a screen (ex: screen -dmS cleaner)
+2. Go to that screen (ex: screen -r cleaner)
+3. perl cleaner.pl
