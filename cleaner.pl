@@ -217,9 +217,6 @@ local *get_slow_torrents = sub {
             else {$HR = 100 * log($data_size) - 219.2023;} # 100*ln(x)-219.2023
         }
         
-        $ratio_now = $ratio_now * 0.95;
-        $seeding_time = $seeding_time * 0.9;
-        
         if ((($n >= 999) && (                                                                                             # $seeding_time > 1 (Min seeding_time = 1 Period time)
         ($upload_speed < $thr && $seeding_time >=  0 && $ratio_now >= 0.0 && $host_name =~ /UU.+Announce.+OK$/i)       || # UU  : None
         ($upload_speed < $thr && $seeding_time >  36 && $ratio_now >= 0.0 && $host_name =~ /CD.+Announce.+OK$/i)       || # CD  : Seed > 36hours
