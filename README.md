@@ -20,4 +20,6 @@ U2 有最大有效上傳速度限制，如果匯報時，平均上傳速度超�
 
 
 靈感來源  
-https://www.reddit.com/r/seedboxes/comments/b37h8k/scripthowto_automatically_delete_slow_torrents/
+https://www.reddit.com/r/seedboxes/comments/b37h8k/scripthowto_automatically_delete_slow_torrents/  
+<br/> 
+有問題請回報，但不保證有時間修(主要是沒能力修 ಥ﹏ಥ)
