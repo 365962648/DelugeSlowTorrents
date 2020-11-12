@@ -18,7 +18,7 @@
 # 不進行控制的種子儲存路徑
 $bypass_path = "/home/Other";
 
-# Period. (Minutes) 建議使用1~3分鐘，過長過短都有可能有未知BUG
+# 檢測週期 (Minutes) 建議使用1~3分鐘，過長過短都有可能有未知BUG。
 $Period_min = 2;
 
 # 伺服器最大上傳速度 (Mbps)
